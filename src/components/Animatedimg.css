@@ -1,0 +1,21 @@
+
+
+    @keyframes rotate{
+        from{transform: rotate(350deg) translateX(50px) rotate(-359deg);} 
+      
+        to{transfrom:rotate(5deg) translateX(150px) rotate(5deg);}
+            
+    }
+.displayimg{
+    display:block;
+    margin: 0 auto;
+   padding-bottom:0; 
+   margin-bottom: 0;
+   width: 450px;
+   position:relative;
+top: 20%;
+right:20%;
+animation:rotate 4s infinite }
+   
+
+  

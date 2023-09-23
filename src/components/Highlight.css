@@ -1,0 +1,30 @@
+.highlight{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+    margin-top: 20px;
+    width: 800px;
+    border: 1px solid #eee4e4;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Sriracha;
+    
+}
+.highlight p{
+    font-family: aldin;
+    font-size:18px
+}
+.fontawesome{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+
+}
+.leaf{
+    color:green
+
+}
+.truck{
+    color: rgb(248, 93, 93);  
+    
+}
