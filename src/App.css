@@ -40,7 +40,8 @@ width: 75px;
   font-weight: 50px;
   margin-right:10px;
 }
-.orderWrapper{background-color: #D1CF6B;}
+.orderWrapper{background-color: #D1CF6B;
+padding-top:50px;}
 #overlayer{
   position:absolute;
   display:flex;
@@ -67,8 +68,9 @@ width: 75px;
 }
 .textWrapper p{
   color:#ffffff;
-  font-size: 20px;
+  font-size: 18px;
   font-family: aldin;
+  margin: 3px;
 }
 @keyframes text{
  0%{ transform:20px; color:#E7381C; transitionx: 50px;}
@@ -78,7 +80,7 @@ width: 75px;
 }
 .ani {
   padding: 0;
-  top: 93%;
+  top: 20%;
   line-height: 0;
   text-align: center;
   font-weight: 400px;
@@ -95,7 +97,7 @@ width: 75px;
   border: 1px solid #E7381C;
   border-radius: 5px; 
   color:#E7381C;
-  margin: 5px;
+  margin: 2px;
   box-shadow: 1px 3px rgba(0, 0, 0, 0.2); ;
 }
 .homebtn:hover{
