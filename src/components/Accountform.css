@@ -1,0 +1,97 @@
+.Loginform{
+  padding-top: 60px;
+}
+.accountForm{
+    background-color: #8ae021;
+    width: 450px;
+    height: 520px;
+    text-align: center;
+    margin: 70px;
+    border-radius: 10px;
+    padding:20px;
+  }
+  .icons{
+    font-size: 23px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .input{
+    width: 320px;
+   padding:5px 3px;
+    border: none;
+    border-radius: 6px;
+    margin:10px;
+  }
+  .accountForm p{
+    margin-top:5px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-family: Srirach; 
+    
+  }
+  .accountbtn{
+    margin: 25px;
+  }
+  #homebtn{
+    width:150px;
+    margin-left: 35px;
+    border: 1px solid;
+    padding: 8px 5px;
+    border: 1px solid #8ae021;
+    border-radius: 7px;
+    font-family: Srirach;
+    font-size: 17px;
+  }
+  .googleBtn{
+    width:150px;
+    padding:5px 2px;
+    border: 1px solid; 
+    border: 1px solid #8ae021;
+    border-radius: 7px;
+    margin: 10px;
+  } 
+  .googleIcon{
+  width: 35px;
+  margin:0;
+  padding:0
+  }
+  .logoImg{
+    width: 650px;
+  padding: 0;
+  z-index: -5;
+  }
+  @keyframes textanimate {
+      0%{ transform:20px; color:#E7381C; transitionx: 50px;}
+      50%{transform:20px; color:#7ED957; transitiony:70px; }
+      100% { transform:50px; color:#FFDE59; transitionx:70px; }
+    
+  }
+   .tagLine{
+    position: absolute;
+    top: 80%;
+    left:62%;
+    bottom: 0px;
+    font-size: 35px;
+    font-family: Satisfy;
+    animation: textanimate 6s ease infinite  both;
+   
+  }
+  .bgImg{
+    position: absolute;
+    top:65%;
+    left: 12%;
+    width:800px;
+    opacity: 0.3;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+  }
+  .ingredients{
+    width: 750px;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    opacity: 0.2;
+    z-index: -1px;
+    padding:0px
+  }
