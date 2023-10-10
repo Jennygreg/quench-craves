@@ -1,9 +1,18 @@
 import './App.css';
 import Loginform from './components/Accountform';
-function App() {
-return <div>
-  <Loginform/>
-</div> 
-}
+import Home from './components/Home';
 
-export default App;
+
+function App() {
+return (
+  <div className="App">
+    <div>
+
+<Loginform/>
+
+    </div>
+  </div>
+)
+ 
+}
+export default App();

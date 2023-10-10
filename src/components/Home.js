@@ -1,6 +1,7 @@
-import Recat from 'react'
+import React from 'react'
 import Navbar from './Navbar.js';
-import Loginpageimage from './Loginpageimage';
+import Loginpageimage from './Loginpageimage.js';
+
 export default function Home(){
    return(<div>
     <Navbar/>

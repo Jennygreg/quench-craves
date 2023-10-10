@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import './Loginpageimage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate, faSeedling, faTruck } from '@fortawesome/free-solid-svg-icons';
@@ -39,7 +39,9 @@ export default function Loginpageimage(){
     <div className='info truck'>
     <FontAwesomeIcon icon={faTruck} className='infoicon icontruck'/>
     <h3>Fast Delivery</h3>
-    <p> meals are packged in healthy fancy plastic plates for ease of delivery and we delivery within abuja with little token     </p>
+    <p> meals are packged in healthy fancy plastic 
+        plates for ease of delivery and we delivery
+         within abuja with little token     </p>
     </div>
     
     </div> 
